@@ -1,0 +1,33 @@
+@import './../../helper/colors.scss';
+@import './../../helper/fonts.scss';
+
+.footer {
+    
+    padding: 0 10% 0 10%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: $footTex;
+    background-color: $whith;
+    font-weight: 100;
+    font-family: "Open Sans", serif;
+    font-size: 14px;
+    p{
+
+    }
+    div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        width: 120%;
+        margin-left: -90px;
+        li{
+            list-style: none;
+            margin-left: 12px;
+        }
+    }
+}
