@@ -1,0 +1,58 @@
+@import './../../helper/colors.scss';
+@import './../../helper/fonts.scss';
+.countryNav{
+    background: linear-gradient(to right, $body, $whith, $body);
+    width: 80%;
+    margin: 0 0 0 10%;
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        a{
+            text-decoration: none;
+            color: $dark;
+        }
+        li{
+            list-style: none;
+            margin-left: 12px;
+           
+        }
+    }
+}
+.hotelDetail{
+    width: 80%;
+    margin-left: 10%;
+
+ .myDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 30px;
+    figure{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: $whith;
+        a{
+            text-decoration: none;
+            color: $black;
+        }
+        div{
+            img{
+                width: 100%;
+                min-width: 300px;
+                max-height: 300px;
+                min-height: 300px;
+                margin: 0;
+            }
+            figcaption{
+                background-color: $whith;
+                margin: 0;
+                padding: 0;
+            }
+        }
+        
+    }
+ }
+   
+}
