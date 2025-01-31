@@ -41,7 +41,7 @@ const struc = cityDetails.cities[0].hotels;
           <p>{cityDetails.description}</p>
       </article>
     <div className={style.myDiv}>
-    {struc.slice(0, 2).map((item, index) => (
+    {struc.slice(0, 6).map((item, index) => (
         <figure>
         <Link to={`/city/${cityDetails.slug}/${cityDetails.cities[0].slug}/${item.slug}`}>
             <div key={index} >

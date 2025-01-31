@@ -68,7 +68,7 @@ export const Countries = () => {
                       </article>
                       <div className={style.myDiv}>
                     
-                    {selectedCountry.cities.slice(0, 2).map((item, index) => (
+                    {selectedCountry.cities.map((item, index) => (
                         <figure>
                             <Link to={`/city/${selectedCountry.slug}/${item.slug}`}>
                                 <div key={index} >

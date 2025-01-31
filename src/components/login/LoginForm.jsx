@@ -75,7 +75,7 @@ export const LoginForms = () => {
               onChange={(e) => setPassword(e.target.value)}
             />
             <div className={style.butts} >
-                <button type="submit"> Signup </button>
+                <button type="submit"> Login </button>
                 <button type="submit"> Annuller </button>
             </div>
         </form>
