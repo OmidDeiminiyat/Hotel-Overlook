@@ -1,9 +1,10 @@
+import { ReservForm } from "../components/reservation/Reservation"
 
 export const Reservation = () => {
 
     return(
         <>
-            Reservation
+            < ReservForm />
         </>
     )
 }

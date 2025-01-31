@@ -1,0 +1,45 @@
+@import './../../helper/colors.scss';
+@import './../../helper/fonts.scss';
+
+.logForm {
+    margin-left: 10%;
+    min-height: 550px;
+    h2{
+        font-weight: 100;
+    }
+    p{
+        a{
+            text-decoration: none;
+            color: $black;
+            &:hover{
+                color: $red;
+            }
+        }
+    }
+    form{
+        width: 60%;
+        display: grid;
+        grid: 1fr;
+            input{
+                width: 40%;
+                margin-top: 9px;
+            }
+            .butts{
+                display: flex;
+                flex-direction: row;
+                gap: 1rem;
+                margin-top: 9px;
+                Button{
+                    background-color: $red;
+                    color: $whith;
+                    border: none;
+                    padding: 9px 12px;
+                    border-radius: 9px;
+                }
+            }
+    }
+}
+
+.error{
+    color: $red;
+}

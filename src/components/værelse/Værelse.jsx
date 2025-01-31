@@ -43,7 +43,7 @@ export const Værlser = () => {
                 <h3>Se vores udvalg af værelser</h3>
                 <div className={style.news}>
                     {roomStructur.slice(0, 3).map((item, index) => (
-                        <Link to={`/News/${item.id}`}>
+                              <Link to={`/city/danmark/kobenhavn/overlook-webers`}>
                             <figure key={index} >
                                 <img src={`./../../../src/images/${item.room_id}.jpg`} alt={`${item.room_id}`} />
                                 <figcaption>

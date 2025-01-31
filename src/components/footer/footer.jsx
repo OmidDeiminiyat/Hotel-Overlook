@@ -15,7 +15,7 @@ export const Footer = () => {
 
                 <ul>
                     <li>Forside</li>
-                    <li>Hoteller & Destinationer</li>
+                    <li>Hoteller</li>
                     <li>Værelser</li>
                     <li>Reservation</li>
                     <li>Login</li>
